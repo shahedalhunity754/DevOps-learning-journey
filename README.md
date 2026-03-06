@@ -1,58 +1,26 @@
-# My Linux Cheat Sheet 🐧
-# NGD Linux Unhatched
- 
- Command   | Description                         | Example 
- 
--`cd`       | change directory                    | cd Documents 
--`whoami`    |to show the name of the current user | ---
--`ls`        |list                                 | ls documents 
-_________________________________________________________________________________________________________________
-sysadmin@localhost:~$ 
--sysadmin : name of the user 
--localhost: name of the device 
-_________________________________________________________________________________________________________________
-  Option    | Description 
- -v         | verbose flag : adding more "v" increases  the level of detail ;this is useful when trying to solve 
-              a cloud server problem.
- -1         | makes the list vertical 
- pwd        | print working directory : discover the current location within the file  system.
- ..         | parent directory : taking a step back 
- .          | current directory 
- ~          | home directory 
- _______________________________________________________________________________________________________________
-how Linux read the properity of  certian file / directory :
-**the first letter**
-d         | directory 
--         | regular file 
-l         | Symbolic link(it should put an arrow showing the original path)
-s/p       | sockets & pipes (to communicate insidde the program )
-b/c       | hardisk 
-**the other letters**
-*first 3 letters* : owner 
-*second 3 letters* : group 
-*third 3 letters* : others 
-______________________________________________________________________________________________________________
-r : read
-w: write
-x: execute
-**we can't make a file with  -rwxrwxrwx becuase it means everyone can delete it**
+# Cisco Networking Academy :Linux Unhached 🐧
 
-we will use this file as example : 
-     drwxr-xr-x   2 root    root     4096  Apr 11    2014   upstart  
-   d :type of file 
-rwxr-xr-x  : permissions
-2 : hard link count 
-root : user owner 
-root  : group owner 
-4096 : file size  
-Apr 11    2014 :modification date
-upstart :name of file 
+This repository contains my documentation and practical implementaion of the skills I acquired during the Cisco Linux Unhatched course. This certification serves as my foundation in operating systems, which is a core pillar for my journey towards becoming a Cloud and DevOps Engineer.
 
--by default ,Linux displays files alphabetically by name, and via the option *-t*, it will display files by modification time from newest to oldest. 
--option *-S* display the files by file size.
--we use option -r to reverse. if you put it alone with *ls*, it will give me the filenames from Z to A.And if I write *-ltr*, it will write them in details and sorted from oldest to newest. 
--when I want to quickly specify the the current folder, I put fullstop (.).
-______________________________________________________________________________________________________________
+
+​🎯 About the Course
+​The Linux Unhatched course provides a comprehensive introduction to the Linux command line (CLI). It covers the basics of the back-end system that powers most of the world's servers and cloud infrastructure.
+
+​🛠️ Key Skills Gained
+​File System Navigation: Mastered the use of cd, ls, and pwd to navigate complex directory structures.
+​File Management: Learned how to create, move, copy, and delete files/directories using touch, cp, mv, and rm.
+​System Commands: Understanding basic system info using uname, free, and df.
+​File Permissions: Understanding the concept of ownership and permissions (chmod).
+​Data Manipulation: Basic usage of grep to filter information.
+
+​📁 Repository Structure
+​Certificate/: Contains my official Cisco certification.
+​Notes/: My personal notes on essential Linux commands.
+
+​🚀 Future Goals
+​I am currently working on the Google IT Automation with Python Professional Certificate to bridge these Linux fundamentals with Python automation and Cloud management.
+
+ 
 
 
 
