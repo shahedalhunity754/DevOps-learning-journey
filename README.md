@@ -19,6 +19,7 @@ This repository contains my documentation and practical implementaion of the ski
 
 ​🚀 Future Goals
 ​I am currently working on the Google IT Automation with Python Professional Certificate to bridge these Linux fundamentals with Python automation and Cloud management.
+Currently applying for GSoC 2026 to contribute to the CNCF community by building e-commerce examples using the kpt tools 
 
  
 
